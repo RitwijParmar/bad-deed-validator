@@ -1,0 +1,1 @@
+# bad-deed-validator
