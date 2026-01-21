@@ -1,0 +1,5 @@
+# Bad Deed Validator - Requirements
+# Uses only Python standard library - NO external dependencies
+# This ensures security, portability, and reproducibility
+
+# Python 3.8+
