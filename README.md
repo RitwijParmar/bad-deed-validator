@@ -230,6 +230,12 @@ python -m pytest tests/
 - County matching (abbreviation expansion, fuzzy match)
 - Complete deed extraction (all fields)
 - Error formatting and reporting
+- 
+## Interactive Testing (Google Colab)
+
+**Run the test suite interactively in Google Colab:**
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1cENowtc7xpLmNiyKscT6yKXCfNMVsMXc)
 
 ## Files
 
