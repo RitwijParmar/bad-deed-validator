@@ -287,6 +287,4 @@ python validator.py
 
 Engineering Specialization: Backend Systems, Distributed Systems, AI Infrastructure
 
----
 
-**"In financial systems, paranoia is not a flaw—it's a feature."**
