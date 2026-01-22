@@ -18,7 +18,7 @@ A three-layer validation architecture:
 
 ## Key Features
 
-### ✅ Critical Sanity Checks
+### Critical Sanity Checks
 
 **Date Logic Validation**
 - Ensures "Date Recorded" ≥ "Date Signed"
@@ -30,14 +30,14 @@ A three-layer validation architecture:
 - Detects: $50k discrepancies between formats
 - Impact: Catches OCR errors and deliberate amount manipulation
 
-### 🔍 County Matching
+### County Matching
 
 - **Abbreviation Handling**: "S. Clara" → "Santa Clara"
 - **Fuzzy Matching**: Handles OCR variations
 - **Confidence Scoring**: Low-confidence matches trigger warnings
 - **Tax Rate Enrichment**: Automatically populates tax rates from reference database
 
-### 🛡️ Error Reporting
+### Error Reporting
 
 - **Hard Errors**: Document rejection with clear reasons
 - **Warnings**: Manual verification recommended (low confidence)
@@ -119,7 +119,7 @@ else:
 
 ## Validation Examples
 
-### ✅ Valid Deed
+### Valid Deed
 ```json
 {
   "status": "APPROVED",
@@ -138,7 +138,7 @@ else:
 }
 ```
 
-### ❌ Rejected: Date Logic Error
+### Rejected: Date Logic Error
 ```json
 {
   "status": "REJECTED",
@@ -152,7 +152,7 @@ else:
 }
 ```
 
-### ❌ Rejected: Amount Mismatch
+### Rejected: Amount Mismatch
 ```json
 {
   "status": "REJECTED",
@@ -279,9 +279,7 @@ python validator.py
 - [ ] Administrative dashboard for warnings
 - [ ] Machine learning for OCR confidence scoring
 
-## License
 
-MIT
 
 ## Author
 
